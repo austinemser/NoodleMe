@@ -7,3 +7,4 @@
 //
 
 #define MenusUrl @"http://ancient-caverns-1856.herokuapp.com/menus.json"
+#define LocationUrl @""
