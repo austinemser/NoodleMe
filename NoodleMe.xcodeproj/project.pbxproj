@@ -14,13 +14,15 @@
 		6E41C11A1831DC130015CC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41C1191831DC130015CC7F /* main.m */; };
 		6E41C11E1831DC130015CC7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41C11D1831DC130015CC7F /* AppDelegate.m */; };
 		6E41C1211831DC130015CC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E41C11F1831DC130015CC7F /* Main.storyboard */; };
-		6E41C1241831DC130015CC7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41C1231831DC130015CC7F /* ViewController.m */; };
 		6E41C1261831DC130015CC7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E41C1251831DC130015CC7F /* Images.xcassets */; };
 		6E41C12D1831DC130015CC7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E41C12C1831DC130015CC7F /* XCTest.framework */; };
 		6E41C12E1831DC130015CC7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E41C10D1831DC130015CC7F /* Foundation.framework */; };
 		6E41C12F1831DC130015CC7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E41C1111831DC130015CC7F /* UIKit.framework */; };
 		6E41C1371831DC130015CC7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E41C1351831DC130015CC7F /* InfoPlist.strings */; };
 		6E41C1391831DC130015CC7F /* NoodleMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41C1381831DC130015CC7F /* NoodleMeTests.m */; };
+		6E41C1441831DD900015CC7F /* MenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41C1431831DD900015CC7F /* MenuTVC.m */; };
+		6E6C85B01834627200330CE0 /* MenuItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C85AF1834627200330CE0 /* MenuItemVC.m */; };
+		6E6C85B618387FBD00330CE0 /* MenuAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C85B518387FBD00330CE0 /* MenuAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,19 @@
 		6E41C11C1831DC130015CC7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E41C11D1831DC130015CC7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E41C1201831DC130015CC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E41C1221831DC130015CC7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6E41C1231831DC130015CC7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6E41C1251831DC130015CC7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6E41C12B1831DC130015CC7F /* NoodleMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoodleMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E41C12C1831DC130015CC7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6E41C1341831DC130015CC7F /* NoodleMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoodleMeTests-Info.plist"; sourceTree = "<group>"; };
 		6E41C1361831DC130015CC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E41C1381831DC130015CC7F /* NoodleMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoodleMeTests.m; sourceTree = "<group>"; };
+		6E41C1421831DD900015CC7F /* MenuTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTVC.h; sourceTree = "<group>"; };
+		6E41C1431831DD900015CC7F /* MenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTVC.m; sourceTree = "<group>"; };
+		6E6C85AE1834627200330CE0 /* MenuItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemVC.h; sourceTree = "<group>"; };
+		6E6C85AF1834627200330CE0 /* MenuItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemVC.m; sourceTree = "<group>"; };
+		6E6C85B118387F1800330CE0 /* WebAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAPIConfig.h; sourceTree = "<group>"; };
+		6E6C85B418387FBD00330CE0 /* MenuAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuAPI.h; path = ../MenuAPI.h; sourceTree = "<group>"; };
+		6E6C85B518387FBD00330CE0 /* MenuAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuAPI.m; path = ../MenuAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +119,14 @@
 		6E41C1131831DC130015CC7F /* NoodleMe */ = {
 			isa = PBXGroup;
 			children = (
+				6E6C85A11834460000330CE0 /* NoodleAPI */,
+				6E41C1421831DD900015CC7F /* MenuTVC.h */,
+				6E41C1431831DD900015CC7F /* MenuTVC.m */,
+				6E6C85AE1834627200330CE0 /* MenuItemVC.h */,
+				6E6C85AF1834627200330CE0 /* MenuItemVC.m */,
 				6E41C11C1831DC130015CC7F /* AppDelegate.h */,
 				6E41C11D1831DC130015CC7F /* AppDelegate.m */,
 				6E41C11F1831DC130015CC7F /* Main.storyboard */,
-				6E41C1221831DC130015CC7F /* ViewController.h */,
-				6E41C1231831DC130015CC7F /* ViewController.m */,
 				6E41C1251831DC130015CC7F /* Images.xcassets */,
 				6E41C1141831DC130015CC7F /* Supporting Files */,
 			);
@@ -150,6 +160,16 @@
 				6E41C1351831DC130015CC7F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E6C85A11834460000330CE0 /* NoodleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6E6C85B118387F1800330CE0 /* WebAPIConfig.h */,
+				6E6C85B418387FBD00330CE0 /* MenuAPI.h */,
+				6E6C85B518387FBD00330CE0 /* MenuAPI.m */,
+			);
+			name = NoodleAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E41C1241831DC130015CC7F /* ViewController.m in Sources */,
+				6E6C85B01834627200330CE0 /* MenuItemVC.m in Sources */,
+				6E6C85B618387FBD00330CE0 /* MenuAPI.m in Sources */,
 				6E41C11E1831DC130015CC7F /* AppDelegate.m in Sources */,
+				6E41C1441831DD900015CC7F /* MenuTVC.m in Sources */,
 				6E41C11A1831DC130015CC7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoodleMe/NoodleMe-Prefix.pch";
 				INFOPLIST_FILE = "NoodleMe/NoodleMe-Info.plist";
@@ -391,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoodleMe/NoodleMe-Prefix.pch";
 				INFOPLIST_FILE = "NoodleMe/NoodleMe-Info.plist";
@@ -460,6 +484,7 @@
 				6E41C13E1831DC130015CC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E41C13F1831DC130015CC7F /* Build configuration list for PBXNativeTarget "NoodleMeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +493,7 @@
 				6E41C1411831DC130015CC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
